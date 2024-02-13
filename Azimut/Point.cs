@@ -16,9 +16,9 @@ namespace Azimut
             Longitude = longitudeT;
         }
 
-        public double Latitude 
-        { 
-            get => latitude; 
+        public double Latitude
+        {
+            get => latitude;
             set
             {
                 if (value < -90 || value > 90) throw new ArgumentOutOfRangeException();
@@ -26,15 +26,14 @@ namespace Azimut
             }
         }
 
-        public double Longitude 
-        { 
-            get => longitude; 
+        public double Longitude
+        {
+            get => longitude;
             set
             {
                 if (value < -180 || value > 180) throw new ArgumentOutOfRangeException();
                 longitude = value;
             }
-            
         }
     }
 }

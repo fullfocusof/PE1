@@ -7,24 +7,38 @@ namespace UnitTestAzimut
     [TestClass]
     public class UnitTestPoint
     {
-        [TestMethod]
+        [DataTestMethod]
+        [DataRow(-1000.0, -1000.0)]
+        [DataRow(1000.0, 1000.0)]       
         [ExpectedException(typeof(ArgumentOutOfRangeException))]
-        public void TestMethodCtor_ThrowsArgumentOutOfRangeException()
+        public void TestMethodCtor_ThrowsArgumentOutOfRangeException(double a, double b)
         {
             //Arrange
             Point p;
-            double a = -1000.0, b = -1000.0;
 
             //Act
             p = new Point(a, b);
         }
 
-        [TestMethod]
-        public void TestMethodCtor_CreatePoint()
+
+        [DataTestMethod]
+        [DataRow(-90, 0.0)]
+        [DataRow(90, 0.0)]
+        [DataRow(0.0, -180.0)]
+        [DataRow(0.0, 180.0)]
+
+        [DataRow(-89.9, 0.0)]
+        [DataRow(89.9, 0.0)]
+        [DataRow(0.0, -179.9)]
+        [DataRow(0.0, 179.9)]
+        [DataRow(-89.9, -179.9)]
+        [DataRow(89.9, 179.9)]
+        [DataRow(89.9, -179.9)]
+        [DataRow(-89.9, 179.9)]     
+        public void TestMethodCtor_CreatePoint(double a, double b)
         {
             //Arrange
             Point p;
-            double a = 0.0, b = 0.0;
 
             //Act
             p = new Point(a, b);

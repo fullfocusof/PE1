@@ -4,3 +4,9 @@ E:\Projects\ProgEng\UnitTestPoint\Azimut\obj\Debug\Azimut.csproj.AssemblyReferen
 E:\Projects\ProgEng\UnitTestPoint\Azimut\obj\Debug\Azimut.csproj.CoreCompileInputs.cache
 E:\Projects\ProgEng\UnitTestPoint\Azimut\obj\Debug\Azimut.dll
 E:\Projects\ProgEng\UnitTestPoint\Azimut\obj\Debug\Azimut.pdb
+D:\Users\class\source\repos\PE1\Azimut\bin\Debug\Azimut.dll
+D:\Users\class\source\repos\PE1\Azimut\bin\Debug\Azimut.pdb
+D:\Users\class\source\repos\PE1\Azimut\obj\Debug\Azimut.csproj.AssemblyReference.cache
+D:\Users\class\source\repos\PE1\Azimut\obj\Debug\Azimut.csproj.CoreCompileInputs.cache
+D:\Users\class\source\repos\PE1\Azimut\obj\Debug\Azimut.dll
+D:\Users\class\source\repos\PE1\Azimut\obj\Debug\Azimut.pdb
