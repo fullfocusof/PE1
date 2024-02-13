@@ -1,0 +1,6 @@
+E:\Projects\ProgEng\UnitTestPoint\Azimut\bin\Debug\Azimut.dll
+E:\Projects\ProgEng\UnitTestPoint\Azimut\bin\Debug\Azimut.pdb
+E:\Projects\ProgEng\UnitTestPoint\Azimut\obj\Debug\Azimut.csproj.AssemblyReference.cache
+E:\Projects\ProgEng\UnitTestPoint\Azimut\obj\Debug\Azimut.csproj.CoreCompileInputs.cache
+E:\Projects\ProgEng\UnitTestPoint\Azimut\obj\Debug\Azimut.dll
+E:\Projects\ProgEng\UnitTestPoint\Azimut\obj\Debug\Azimut.pdb
